@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+<category>
+    <pattern>quiz</pattern>
+    <template>I can definitely help get you started thinking about a career! 
+    <delay>1</delay>
+    I will do this by asking you a series of questions designed to match your interests and skills with a compatible career in the field of computer science. 
+    Are you ready to get started?
+    <button>
+        <text>Yes!</text>
+        <postback>new</postback>
+    </button>
+        
+    <button>
+        <text>No, let's start over.</text>
+        <postback>hello</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>question1</pattern>
+    <template>Do you enjoy writing code?
+    <button>
+        <text>I find coding to be stimulating and enjoyable</text>
+        <postback>yescode</postback>
+    </button>
+    <button>
+        <text>I can understand how programs work, but I'm not a big fan of programming.</text>
+        <postback>nocode</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>nocode</pattern>
+    <template>Which sounds more like you?
+    <button>
+        <text>I like to think of new ways to handle complex problems.</text>
+        <postback>nocodenew</postback>
+    </button>
+    <button>
+        <text>I prefer tried and true methods of getting results.</text>
+        <postback>nocodeold</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>nocodenew</pattern>
+    <template>Which sounds more like you?
+    <button>
+        <text>I can respond quickly to challenges and anticipate problems before they occur. </text>
+        <postback>infosec</postback>
+    </button>
+    <button>
+        <text>I am skilled at multitasking and prefer to work on many projects at once.</text>
+        <postback>systems</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>nocodeold</pattern>
+    <template>Which sounds more like you?
+    <button>
+        <text>I enjoy using SQL and can work with data from a variety of sources.</text>
+        <postback>dba</postback>
+    </button>
+    <button>
+        <text>I enjoy working with people from a wide variety of backgrounds.</text>
+        <postback>infosec</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>yescode</pattern>
+    <template>Which sounds more like you?
+    <button>
+        <text>I love learning new things and staying up to date on emerging trends.</text>
+        <postback>yescode2</postback>
+    </button>
+    <button>
+        <text>I'm very creative and enjoy brainstorming with others.</text>
+        <postback>yescode2</postback>
+    </button>
+    </template>
+</category>
+
+<category>
+    <pattern>yescode2</pattern>
+    <template>Are you open to obtaining a master's degree or higher?
+    <button>
+        <text>Yes, it's something I can consider.</text>
+        <postback>scientist</postback>
+    </button>
+    <button>
+        <text>No, I'm done with school for now.</text>
+        <postback>developer</postback>
+    </button>
+    </template>
+</category>
+
+<!--test  -->
+<category>
+    <pattern>new</pattern>
+    <template>Great! Let's get started. But first, what should I call you?</template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+        <that>BUT FIRST, WHAT SHOULD I CALL YOU</that>
+        <template>
+            Nice to meet you, <star/>!
+            <delay>1</delay>
+            Ok, first question.
+            <delay>1</delay>
+            Do you enjoy coding?
+            <button>
+                <text>I find coding to be stimulating and enjoyable</text>
+                <postback>yescode</postback>
+            </button>
+            
+            <button>
+            <text>I can understand how programs work, but I'm not a big fan of programming.</text>
+            <postback>nocode</postback>
+            </button>
+            
+            <think><set name="name"><star/></set></think>
+        </template>
+</category>
+
+
+	
+</aiml>

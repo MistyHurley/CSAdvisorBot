@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>developer</pattern>
+        <template>Have you thought about becoming a software developer?
+        <delay>1</delay>
+        Software developers create and maintain software programs or apps. 
+        <delay>2</delay>The process of software development is typically collaborative, requiring team members to work together to design programs, write and debug code, and create documentation.
+        <delay>4</delay>The median salary for software developers is $110,140, and employment is projected to grow much faster than average.
+        <delay>1</delay>
+            <link>
+                <text> Click here to learn more about software developers.</text>
+                <url>https://www.onetonline.org/link/summary/15-1252.00</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+    	<category>
+        <pattern>DBA</pattern>
+        <template>Have you thought about becoming a database administrator?
+            <delay>1</delay>
+            Database administrators (DBAs) work with software to store and manage data. 
+            <delay>2</delay>
+            DBAs have strong analytical and critical thinking skills, are proficient with database queries, and have a general understanding of operating systems, networks, and programming. 
+            <delay>4</delay>
+            The median annual wage for DBAs is $98,860, and employment is projected to grow much faster than average.
+            <delay>1</delay>
+            <link>
+                <text> Click here to learn more about database administrators.</text>
+                <url>https://www.onetonline.org/link/summary/15-1242.00</url>
+            </link>
+            <delay>1</delay>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+    	<category>
+        <pattern>infosec</pattern>
+        <template>Have you thought about becoming an information security analyst?
+            <delay>1</delay>
+            Information security analysts plan, implement, and update security policies and procedures to protect an organization's networks and systems. 
+            <delay>2</delay>Information security analysts are detail-oriented, creative, and skilled in analytical thinking, problem solving, and staying up to date on emerging risks and trends. 
+            <delay>4</delay>The median annual wage for information security analysts is $103,590, and employment is projected to grow much faster than average.
+            <delay>1</delay>
+            <link>
+                <text> Click here to learn more about information security analysts.</text>
+                <url>https://www.onetonline.org/link/summary/15-1212.00</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+    	<category>
+        <pattern>systems</pattern>
+        <template>Have you thought about becoming a computer systems analyst?
+            <delay>1</delay>
+            Systems analysts specialize in analyzing an organization's current systems and procedures to design, implement, and update information systems to promote smooth and efficient operations and procedures. 
+            <delay>2</delay>Systems analysts are creative and analytical thinkers that are skilled in communicating with team members of a variety of skill levels and backgrounds. 
+            <delay>4</delay>The median annual wage for computer systems analysts is $93,730, and employment is projected to grow faster than average.
+            <delay>1</delay>
+            <link>
+                <text> Click here to learn more about computer systems analysts.</text>
+                <url>https://www.onetonline.org/link/summary/15-1211.00</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+    	<category>
+        <pattern>scientist</pattern>
+        <template>Have you thought about becoming a computer or information research scientist?
+            <delay>1</delay>
+            Computer scientists research and design innovative solutions to solve complex problems with hardware and software in the fields of business, science, manufacturing, medicine, and more. 
+            <delay>2</delay>Computer scientists are adept problem solvers and critical thinkers, possessing strong mathematical and logical skills, while communicating effectively with both peers and general audiences. 
+            <delay>4</delay>Most computer scientists have a master's degree or higher. 
+            <delay>1</delay>The median annual wage for computer scientists is $126,830, and employment is projected to grow much faster than average.
+            <delay>1</delay>
+            <link>
+                <text> Click here to learn more about computer scientists.</text>
+                <url>http://www.onetonline.org/link/summary/15-1221.00</url>
+            </link>
+            <button>
+                <text>Click here to explore other careers.</text>
+                <postback>careers</postback>
+            </button>
+             <button>
+                <text>Click here for help picking the right career.</text>
+                <postback>quiz</postback>
+            </button>
+        </template>
+    </category>
+    
+</aiml>

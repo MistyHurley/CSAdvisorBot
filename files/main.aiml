@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>hello</pattern>
+    <template>Hi, I'm CSAdvisorBot! I can help you choose an exciting career in computer science! To begin, please select from the following options below:
+        <button>
+            <text>Learn about careers</text>
+            <postback>careers</postback>
+        </button>
+        <button>
+            <text>Help me pick a career</text>
+            <postback>quiz</postback>
+        </button>    
+    </template>
+</category>
+
+<category><pattern>hi</pattern><template><srai>HELLO</srai></template></category>
+
+<category><pattern>hey there</pattern><template><srai>HI</srai></template></category>
+
+<category><pattern>hey</pattern><template><srai>HEY THERE</srai></template></category>
+
+
+
+
+<category>
+    <pattern>careers</pattern>
+    <template>Here are 5 of the top computer science careers you can choose from. For more information, type "more careers"
+        <button>
+            <text>Software Developer</text>
+            <postback>developer</postback>
+        </button>
+        <button>
+            <text>Database Administrator</text>
+            <postback>DBA</postback>
+        </button>
+        <button>
+            <text>Information Security Analyst</text>
+            <postback>infosec</postback>
+        </button>
+        <button>
+            <text>Computer Systems Analyst</text>
+            <postback>systems</postback>
+        </button>
+        <button>
+            <text>Computer Scientist</text>
+            <postback>scientist</postback>
+        </button>
+    </template>
+</category>
+
+<category>
+    <pattern>more careers</pattern>
+    <template>I can help you with that!
+        <button>
+          <text>Click here to view more computer science and related careers.</text>
+          <url>https://bit.ly/3uvhtTo</url>
+        </button>
+    </template>
+</category>
+    
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
