@@ -15,15 +15,6 @@
     </template>
 </category>
 
-<category><pattern>hi</pattern><template><srai>HELLO</srai></template></category>
-
-<category><pattern>hey there</pattern><template><srai>HI</srai></template></category>
-
-<category><pattern>hey</pattern><template><srai>HEY THERE</srai></template></category>
-
-
-
-
 <category>
     <pattern>careers</pattern>
     <template>Here are 5 of the top computer science careers you can choose from. For more information, type "more careers"
@@ -61,7 +52,15 @@
 </category>
     
 <category>
-    <pattern></pattern>
-    <template></template>
+    <pattern>bye</pattern>
+    <template>It was nice talking to you, <get name="name"/>!</template>
 </category>
+
+<!-- reduction -->
+<category><pattern>goodbye</pattern><template><srai>BYE</srai></template></category>
+<category><pattern>hey there</pattern><template><srai>HELLO</srai></template></category>
+<category><pattern>hey</pattern><template><srai>HEY THERE</srai></template></category>
+<category><pattern>yo</pattern><template><srai>SUP</srai></template></category>
+<category><pattern>hi</pattern><template><srai>YO</srai></template></category>
+<category><pattern>sup</pattern><template><srai>HEY</srai></template></category>
 </aiml>
